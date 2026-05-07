@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
 
 :root {
-    --bg-color: #000000;
+    --bg-color: #FFFFFF;
     --header-bg: #990000;
     --text-white: #ffffff;
     --text-yellow: #ffff00;
@@ -17,7 +17,7 @@
 
 body {
     background-color: var(--bg-color);
-    color: var(--text-white);
+    color: var(--text-black);
     font-family: var(--font-main);
     line-height: 1.6;
     overflow-x: hidden;
@@ -49,13 +49,13 @@ body {
 .instruction-text {
     margin-bottom: 25px;
     font-size: 1.1rem;
-    color: #cccccc;
+    color: #000000;
 }
 
 .secondary-text {
     margin-bottom: 30px;
     font-size: 1rem;
-    color: #bbbbbb;
+    color: #000000;
 }
 
 .important-label {
